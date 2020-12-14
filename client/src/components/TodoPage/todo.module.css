@@ -1,0 +1,84 @@
+.addlist{
+  width: 90%;
+  float: right;
+} 
+  .add{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #636161;
+    color:#f1f1f1;
+    
+  }
+  .input::placeholder{
+    color:#f1f1f1;
+  }
+  .input::-webkit-input-placeholder { 
+    color: #f1f1f1; 
+  }
+  
+  .input[type=text]:focus{
+    background-color: #858585;
+    outline: none;
+  }
+
+
+  .list{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .item{
+    display: inline;
+    margin-left: 15px;
+  }
+  .itemLined{
+    display: inline;
+    margin-left: 15px;
+    text-decoration: line-through;
+  }
+
+  p{
+    text-align: left;
+  }
+  .comp{
+    background-color: #3470be;
+    color: #f1f1f1;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 4px;
+  }
+  .comp:hover {
+    background-color: #3a7bcf;
+    color: #fff;
+  }
+  .delete{
+    background-color: #240304;
+    color: #818181;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 0;
+  }
+
+  .delete:hover {
+    background-color: #300405;
+    color: #f1f1f1;
+  }
+
+  .line{
+    height: 2px;
+    background-color: #3c3c3c;
+    margin: 15px;
+    width: 100%;
+  } 

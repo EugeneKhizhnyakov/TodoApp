@@ -1,0 +1,113 @@
+.sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #252527;
+    overflow-x: hidden;
+}
+
+.navp{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.navp:hover {
+    color: #f1f1f1;
+}
+.logo{
+    display: block;
+    padding: 6px 8px 6px 16px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #818181;
+    background-color: #1a1a1b;
+    width: 100%;
+}
+.logo:hover {
+    color: #f1f1f1;
+}
+.logout{
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #240304;
+}
+.logout:hover {
+    background-color: #300405;
+    color: #f1f1f1;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+.label{
+    font-size: 13px;
+    color: #818181;
+    margin-left: 5px;
+}
+.little{
+    font-size: 15px;
+}
+.input[type=text]{
+    padding: 5px;
+    border: none;
+    background: #636161;
+    color:#f1f1f1;
+    width: 100%;
+  }
+  .input::placeholder{
+    color:#f1f1f1;
+  }
+  .input::-webkit-input-placeholder { 
+    color: #f1f1f1; 
+  }
+  .input[type=text]:focus{
+    background-color: #858585;
+    outline: none;
+  }
+  
+
+
+  .navlink{
+   
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+}
+
+.navlink:hover {
+    color: #f1f1f1;
+}
+.span{
+    font-size: 15px;
+    float: right;
+    color: #818181;
+}
+.span:hover{
+    color: #f1f1f1;
+}
+.navblock{
+    padding: 6px 8px 6px 16px;
+    display: block;
+    border-width: 1px;
+    margin: 0px 5px 0px 5px;
+    border-bottom-style: solid;
+    border-color: grey;
+    cursor: pointer;
+}
